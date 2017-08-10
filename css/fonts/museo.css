@@ -1,0 +1,55 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3007385, 2015-04-11T05:51:43-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Museo-700 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo/700/
+ * 
+ * Webfont: Museo-300 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo/300/
+ * 
+ * Webfont: Museo-500 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo/500/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3007385
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work 
+@import url("//hello.myfonts.net/count/2de399");*/
+
+  
+@font-face {
+	font-family: 'Museo-700';
+	src: url('museo/2DE399_0_0.eot');
+	src: url('museo/2DE399_0_0.eot?#iefix') format('embedded-opentype'),
+	url('museo/2DE399_0_0.woff2') format('woff2'),url('museo/2DE399_0_0.woff') format('woff'),url('museo/2DE399_0_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {
+	font-family: 'Museo-300';
+	src: url('museo/2DE399_1_0.eot');
+	src: url('museo/2DE399_1_0.eot?#iefix') format('embedded-opentype'),
+	url('museo/2DE399_1_0.woff2') format('woff2'),url('museo/2DE399_1_0.woff') format('woff'),url('museo/2DE399_1_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {
+	font-family: 'Museo-500';
+	src: url('museo/2DE399_2_0.eot');
+	src: url('museo/2DE399_2_0.eot?#iefix') format('embedded-opentype'),
+	url('museo/2DE399_2_0.woff2') format('woff2'),url('museo/2DE399_2_0.woff') format('woff'),url('museo/2DE399_2_0.ttf') format('truetype');
+}
+ 

@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Alex &amp; Flo ♥ 24.06.2017</title>
+        <meta name="robots" content="noindex, nofollow, noarchive">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/knacss.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
+                integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
+                crossorigin=""/>
+    </head>
+    <body>
+        <div class="main">
+        	<div class="container" id="root" :class="{translating: isTranslating}">
+                <div class="lang">
+                    <a href="#" @click.prevent="traduire('fr')" title="En français"><img src="img/fr.png"></a><!--
+                    --><a href="#" @click.prevent="traduire('it')" title="In italiano"><img src="img/it.png"></a>
+                </div>
+        		<h1 class="titre"><img src="img/titre.png"></h1>
+                <p><t :text="lang[1]">Puisque petit à petit nous avons construit notre nid, il est temps de prendre notre plus belle plume afin de vous annoncer notre union qui aura lieu <span class=emphase>le samedi 24 juin 2017 au Temple de Genthod à 15h.</span></t></p>
+                <p><t :text="lang[2]">À l’issue de la cérémonie, nos familles et nous aurons le plaisir de vous recevoir pour un cocktail ainsi qu’un repas au domaine du château de Collex.</t></p>
+        		<!-- <div class="photo">
+        			<img src="img/DSC_0349.JPG">
+    			</div> -->
+				<h2><t :text="lang[6]">Nous retrouver</t></h2>
+        		    <div id="map" class="photo" style="height:40em">
+    			</div>
+    			<h2><t :text="lang[7]">Nous faire un cadeau</t></h2>
+    			<p><t :text="lang[3]">Non pas que nous vous en demandions un ! Mais si l'envie vous en prenait... et que vous souhaitiez contribuer à nous aider à aménager notre petit nid douillet, la voici&nbsp;:</t></p>
+    			<p><a class="action" href="https://www.ookoodoo.com/list/795398"><t :text="lang[4]">Notre liste de mariage</t></a></p>
+    			<p><t :text="lang[5]">Ou si vous le préférez, voici les coordonnées de notre nouveau compte commun&nbsp;:</t></p>
+    			<p class="action encadre">IBAN CH36 8021 0000 0081 9268 2<br>
+    			Banque Raiffeisen Genève Ouest<br>
+    			1242 Satigny - Suisse</p>
+    			<hr>
+    			<div class="footer flex-container small">
+    				<span>Alexandra Paccot &amp; Florian Sinatra</span>
+    				<span>3, chemin de Champ-Claude</span>
+    				<span>1214 Vernier - Suisse</span>
+    			</div>
+        	</div>
+        </div>
+
+        <!--<script src="js/es6-promise.auto.js"></script>-->
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"
+                integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg=="
+                crossorigin=""></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
